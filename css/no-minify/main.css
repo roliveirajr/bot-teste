@@ -1,0 +1,49 @@
+.container {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+br {
+  clear: both;
+}
+body {
+  padding-top: 100px;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding-top: 40px;
+  background-color: #fdfdfd;
+}
+header ul {
+  list-style-type: none;
+  display: block;
+  margin: 0 auto;
+}
+header li {
+  display: inline-block;
+  vertical-align: top;
+}
+header .logo {
+  float: left;
+}
+header .icon-cart {
+  float: right;
+}
+.wrapper {
+  text-align: center;
+}
+.wrapper ul {
+  list-style-type: none;
+}
+.wrapper li {
+  display: inline-block;
+  vertical-align: top;
+  width: 305px;
+  margin: 30px 10px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
