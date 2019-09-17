@@ -1,0 +1,31 @@
+._section-products {
+   h2 {
+      text-align: center;
+   }
+}
+.__content-products {
+   display: flex;
+   flex-wrap: wrap;
+   .___product {
+      flex: 1 1 26%;
+      margin: 10px 15px;
+      border: solid 1px;
+      a {
+         display: block;
+         text-decoration: none;
+         text-align: center;
+         padding: 90px 50px 30px 50px;
+      }
+      img {
+         max-width: 100px;
+      }
+
+      h3 {
+         color: #333;
+         font-size: 15px;
+         margin-top: 73px;
+         height: 34px;
+      }
+
+   }
+}
